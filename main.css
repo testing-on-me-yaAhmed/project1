@@ -1,6 +1,12 @@
+:root {
+  --main-color: green;
+}
 body {
   background-color: #ddd;
 }
 i {
-  color: green;
+  color: var(--main-color);
+}
+p {
+  line-height: 1.7;
 }
