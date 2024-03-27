@@ -1,12 +1,17 @@
-:root {
-  --main-color: green;
-}
+
 body {
   background-color: #ddd;
 }
 i {
-  color: var(--main-color);
+  color: green;
 }
 p {
   line-height: 1.7;
+}
+=======
+body {
+  background-color: #333;
+}
+p {
+  font-size: 15px;
 }
